@@ -38,21 +38,25 @@ int main()
 		scanf("%d", &input);
 		switch (input)
 		{
-		case 1:
+		case 增加:
 			AddContact(&con);
 			break;
-		case 2:
+		case 删除:
+			DelContact(&con);
 			break;
-		case 3:
+		case 查询:
+			SearchContact(&con);
 			break;
-		case 4:
+		case 修改:
+			ModdifyContact(&con);
 			break;
-		case 5:
+		case 显示:
 			ShwoContact(&con);
 			break;
-		case 6:
+		case 排序:
+			SortContact(&con);
 			break;
-		case 0:
+		case 退出:
 			printf("退出通讯录\n");
 			break;
 		default:
