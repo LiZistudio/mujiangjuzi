@@ -1,0 +1,3 @@
+﻿  test.cpp
+E:\code\mujiangjuzi\C++_指针使用示例\C++_指针使用示例\test.cpp(22,14): error C2440: “初始化”: 无法从“std::string”转换为“int *”
+E:\code\mujiangjuzi\C++_指针使用示例\C++_指针使用示例\test.cpp(22,9): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
