@@ -28,12 +28,40 @@ static int FindByName(const struct Contact* ps, char name[MAX_name])
 }
 void InitContact(struct Contact* ps)
 {
-	memset(ps->data,0,sizeof(ps->data));
-	ps->size = 0;//设置通讯录最初只有0个元素
+	//memset(ps->data,0,sizeof(ps->data));
+	//ps->size = 0;//设置通讯录最初只有0个元素
+	ps->data = (struct PeoInfo*)malloc(3 * sizeof(struct PeoInfo));
+	if (ps->data==NULL)
+	{
+		return;
+	}
+	ps->size = 0;
+	ps->capacity = 3;
+}
+
+
+static void CheckCapacity(struct Contact* ps)
+{
+	if (ps->size==ps->capacity)
+	{
+		//增容
+		struct PeoInfo* ptr = realloc(ps->data, (ps->capacity + 2) * sizeof(struct PeoInfo));
+		if (ptr!=NULL)
+		{
+			ps->data = ptr;
+			ps->capacity += 2;
+			printf("增容成功！\n");
+		}
+		else
+		{
+			printf("增容失败！\n");
+		}
+	}
+	return 0;
 }
 void AddContact(struct Contact* ps)
 {
-	if (ps->size==MAX)
+	/*if (ps->size==MAX)
 	{
 		printf("通讯录已满，无法增加\n");
 	}
@@ -52,7 +80,27 @@ void AddContact(struct Contact* ps)
 
 		ps->size++;
 		printf("添加成功\n");
-	}
+	}*/
+
+	
+	//检测当前通讯录的容量
+	//1.如果空间满了，就增加空间
+	//2.如果空间没满，啥事不干
+	CheckCapacity(ps);
+	//增加数据
+	printf("请输入名字:>");
+	scanf("%s", ps->data[ps->size].name);
+	printf("请输入年龄:>");
+	scanf("%d", &(ps->data[ps->size].age));
+	printf("请输入性别:>");
+	scanf("%s", ps->data[ps->size].sex);
+	printf("请输入电话:>");
+	scanf("%s", ps->data[ps->size].tele);
+	printf("请输入地址:>");
+	scanf("%s", ps->data[ps->size].addr);
+
+	ps->size++;
+	printf("添加成功\n");
 }
 void ShwoContact(const struct Contact* ps)
 {
@@ -163,3 +211,10 @@ void SortContact(struct Contact* ps)
 //{
 //    return *(int*)e1 - *(int*)e2;
 //}
+
+//内存释放
+void DestoryContact(struct Contact* ps)
+{
+	free(ps->data);
+	ps->data = NULL;
+}

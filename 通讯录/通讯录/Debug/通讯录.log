@@ -1,5 +1,6 @@
 ﻿  contact.c
-E:\code\mujiangjuzi\通讯录\通讯录\contact.c(159,7): warning C4013: “qsort”未定义；假设外部返回 int
+E:\code\mujiangjuzi\通讯录\通讯录\contact.c(60,10): warning C4098: “CheckCapacity”:“void”函数返回值
+E:\code\mujiangjuzi\通讯录\通讯录\contact.c(207,7): warning C4013: “qsort”未定义；假设外部返回 int
   test.c
   正在生成代码...
   通讯录.vcxproj -> E:\code\mujiangjuzi\通讯录\Debug\通讯录.exe

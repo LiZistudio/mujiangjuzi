@@ -2,14 +2,16 @@
 
 #define _CRT_SECURE_NO_WARNINGS 1
 
-#define MAX 1000
+//#define MAX 1000
 #define MAX_name 20
 #define MAX_sex 5
 #define MAX_tele 12
 #define MAX_addr 30
+#define DEFAULT_SZ 3
 
 #include <stdio.h>
 #include <string.h>
+#include <malloc.h>
 
 enum menu
 {
@@ -32,8 +34,9 @@ struct PeoInfo
 //通讯录类型
 struct Contact
 {
-	struct PeoInfo data[MAX];//存放1000个信息
+	struct PeoInfo* data;//存放1000个信息
 	int size;//记录当前已经有的元素个数
+	int capacity;//当前通讯录的最大容量
 };
 //声明函数
 void InitContact(struct Contact* ps);
@@ -47,3 +50,5 @@ void SearchContact(const struct Contact* ps);
 void ModdifyContact(struct Contact* ps);
 //排序通讯录内容
 void SortContact(struct Contact* ps);
+//内存释放
+void DestoryContact(struct Contact* ps);
