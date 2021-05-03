@@ -26,6 +26,27 @@ static int FindByName(const struct Contact* ps, char name[MAX_name])
 	}
 	return -1;//找不到
 }
+//声明增容函数
+static void CheckCapacity(struct Contact* ps);
+void LoadContact(struct Contact* ps)
+{
+	struct PeoInfo tmp = { 0 };
+	FILE* pfRead = fopen("Contact.dat", "rb");
+	if (pfRead == NULL)
+	{
+		printf("LoadContact::%s\n", strerror(errno));
+		return;
+	}
+	//读取文件存放到通讯录中
+	while (fread(&tmp, sizeof(struct PeoInfo), 1, pfRead))
+	{
+		CheckCapacity(ps);
+		ps->data[ps->size] = tmp;
+		ps->size++;
+	}
+	fclose(pfRead);
+	pfRead = NULL;
+}
 void InitContact(struct Contact* ps)
 {
 	//memset(ps->data,0,sizeof(ps->data));
@@ -37,6 +58,8 @@ void InitContact(struct Contact* ps)
 	}
 	ps->size = 0;
 	ps->capacity = 3;
+	//把保存好的文件中的数据加载到通讯录（内存）中
+	LoadContact(ps);
 }
 
 
@@ -153,7 +176,7 @@ void DelContact(struct Contact* ps)
 void SearchContact(const struct Contact* ps)
 {
 	char name[MAX_name];
-	printf("请输入要查找人的信息");
+	printf("请输入要查找人的信息:\n");
 	scanf("%s", name);
 	int pos = FindByName(ps, name);
 	if (pos==-1)
@@ -217,4 +240,23 @@ void DestoryContact(struct Contact* ps)
 {
 	free(ps->data);
 	ps->data = NULL;
+}
+//保存文件
+void SaveContact(struct Contact* ps)
+{
+	int i = 0;
+	FILE* pfWrite = fopen("Contact.dat", "wb");
+	if (pfWrite==NULL)
+	{
+		printf("SaveContact::%s\n", strerror(errno));
+		return;
+	}
+	//写入通讯录中的数据到文件中
+	for ( i = 0; i < ps->size; i++)
+	{
+		fwrite(&(ps->data[i]), sizeof(struct PeoInfo), 1, pfWrite);
+	}
+	printf("保存成功！\n");
+	fclose(pfWrite);
+	pfWrite = NULL;
 }

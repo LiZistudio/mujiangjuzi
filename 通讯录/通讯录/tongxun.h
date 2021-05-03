@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <malloc.h>
+#include <errno.h>
 
 enum menu
 {
@@ -21,7 +22,8 @@ enum menu
 	查询,
 	修改,
 	显示,
-	排序
+	排序,
+	保存
 };
 struct PeoInfo
 {
@@ -52,3 +54,5 @@ void ModdifyContact(struct Contact* ps);
 void SortContact(struct Contact* ps);
 //内存释放
 void DestoryContact(struct Contact* ps);
+//保存
+void SaveContact(struct Contact* ps);

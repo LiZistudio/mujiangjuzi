@@ -1,0 +1,9 @@
+﻿  contact.c
+E:\code\mujiangjuzi\通讯录\通讯录\contact.c(83,10): warning C4098: “CheckCapacity”:“void”函数返回值
+E:\code\mujiangjuzi\通讯录\通讯录\contact.c(230,7): warning C4013: “qsort”未定义；假设外部返回 int
+  test.c
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 21 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  通讯录.vcxproj -> E:\code\mujiangjuzi\通讯录\Release\通讯录.exe

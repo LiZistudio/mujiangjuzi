@@ -20,7 +20,7 @@ void menu()
 	printf("****1.增加*********2.删除**********\n");
 	printf("****3.查询*********4.修改**********\n");
 	printf("****5.显示*********6.排序**********\n");
-	printf("****0.退出*********7.扩展**********\n");
+	printf("****7.存储*********0.退出**********\n");
 	printf("**********************************\n");
 }
 int main()
@@ -56,7 +56,11 @@ int main()
 		case 排序:
 			SortContact(&con);
 			break;
+		case 保存:
+			SaveContact(&con);
+			break;
 		case 退出:
+			SaveContact(&con);
 			//销毁通讯录-释放动态开辟的内存
 			DestoryContact(&con);
 			printf("退出通讯录\n");
