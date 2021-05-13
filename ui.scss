@@ -1,0 +1,88 @@
+/*
+   Add additional application styles or override styles provided by the selected theme or widgets.
+   You can include SASS syntax, as this file is built to a css file using a SASS processor.
+
+   Available Variables:
+
+   Variable Name      Description
+   ----------------------------------------------------
+   $resources         References the directory where resources reside (images, etc.), this directory may be different
+                      between the design time and the runtime directory structure.
+
+                      Example: background-image: url(#{$resources}/Uploaded/image.png)
+
+   $font-path        References the relative directory where fonts are stored.
+*/
+
+//返回键的基本样式
+.BeforeButton{
+    font-family:幼圆;
+    color:white;
+    background-color:red;
+    font-weight:bold;
+    //font-style:italic;
+  }
+  //拆解键的基本样式
+  .NextButton{
+    font-family:幼圆;
+    color:white;
+    background-color:red;
+    font-weight:bold;
+    //font-style:italic;
+  }
+  //使滑块背景透明
+  .HuakuaiButton{
+    font-family:Century Gothic;
+    color:white;
+    background-color:transparent;
+    font-weight:bold;
+    //font-style:italic;
+  }
+  
+  .MiddleButton{
+    font-family:Century Gothic;
+    color:transparent;
+    background-color:transparent;
+    font-weight:bold;
+    font-style:italic;
+  }
+  
+  //位于左侧面板的开发者标签信息的位置
+  /*.fixed {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }*/
+  
+  /*.fixedRight {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -58px;
+    width: 54px;
+  }*/
+  //位于左侧面板弹窗按钮
+  .fixedLeft{
+    position: fixed;
+    left: 0;
+    top: 85%;
+    margin-top: -58px;
+    width: 70px;
+  }
+  //弹窗按钮
+  .ClickonButton{
+    font-family:幼圆;
+    color:white;
+    background-color:green;
+    font-weight:bold;
+    //font-style:italic;
+  }
+  //关闭弹窗按钮
+  .ClickoffButton{
+    font-family:幼圆;
+    color:white;
+    background-color:black;
+    font-weight:bold;
+    //font-style:italic;
+  }
