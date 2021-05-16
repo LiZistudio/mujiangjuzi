@@ -29,7 +29,7 @@
 #include <vector>
 #include <array>
 
-//using namespace std;
+using namespace std;
 
 int main()
 {
@@ -39,9 +39,9 @@ int main()
 	/** 女儿的姓名 */
 	std::string value_daughter_name;
 	/** 女儿生日的月份 */
-	int value_birth_month = 1;
+	int value_birth_month = 0;
 	/** 女儿生日的日期 */
-	int value_birth_date = 1;
+	int value_birth_date = 0;
 	std::string value_daughter_constell;
 	/**星座二维数组*/
 	std::string constell_names[12][2] = {
@@ -58,14 +58,28 @@ int main()
 		{"天蝎座","射手座"}, //十一月
 		{"射手座","摩羯座"} //十二月
 	};
+	std::cout << "父亲的姓名:" << std::endl;
+	std::cin >> value_father_name;
+	std::cout << "女儿的姓名：" << endl;
+	std::cin >> value_daughter_name;
+	cout << "女儿的生日（MM DD）";
+	cin >> value_birth_month >> value_birth_date;
 	/** 各月份的跨星座日期 */
 	int constell_dates[] = { 20,19,21,20,21,22,23,23,23,24,23,22 };
 	//2.为女儿录入初始信息 生日、星座...
+	/*std::cout << "请输入月份：" << std::endl;
+	std::cin >> value_birth_month;
+	std::cout << "请输入日期：" << std::endl;
+	std::cin>>value_birth_date;*/
 	value_daughter_constell = constell_names[value_birth_month - 1][value_birth_date / constell_dates[value_birth_month - 1]];
-	std::cout << value_daughter_constell << std::endl;
+	//std::cout << '\n'<<value_daughter_constell << std::endl;
+	cout << "女儿的信息："<<endl;
+	cout << "姓名：" << value_daughter_name << endl;
+	cout << "生日：1659-" << value_birth_month << "-" << value_birth_date << endl;
+	cout << "星座：" << value_daughter_constell << endl;
+
 	//  根据女儿的星座，设置游戏的基本参数（体力、智力、魅力、道德...）
 	//3.开始游戏大循环
 	//4.根据各项参数，判定游戏结果
-	
 	return 0;
 }
