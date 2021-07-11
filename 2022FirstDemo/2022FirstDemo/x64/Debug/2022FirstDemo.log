@@ -1,0 +1,4 @@
+﻿  Source.cpp
+F:\code\无聊时写代码的地方\2022FirstDemo\2022FirstDemo\Source.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\code\无聊时写代码的地方\2022FirstDemo\2022FirstDemo\Source.cpp(71): warning C4715: 'insertElem': not all control paths return a value
+  2022FirstDemo.vcxproj -> F:\code\无聊时写代码的地方\2022FirstDemo\x64\Debug\2022FirstDemo.exe
