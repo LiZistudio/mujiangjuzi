@@ -1,0 +1,15 @@
+F:\code\mujiangjuzi\littleStar\littleStar\bin\Debug\net6.0\littleStar.exe
+F:\code\mujiangjuzi\littleStar\littleStar\bin\Debug\net6.0\littleStar.deps.json
+F:\code\mujiangjuzi\littleStar\littleStar\bin\Debug\net6.0\littleStar.runtimeconfig.json
+F:\code\mujiangjuzi\littleStar\littleStar\bin\Debug\net6.0\littleStar.dll
+F:\code\mujiangjuzi\littleStar\littleStar\bin\Debug\net6.0\ref\littleStar.dll
+F:\code\mujiangjuzi\littleStar\littleStar\bin\Debug\net6.0\littleStar.pdb
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.csproj.AssemblyReference.cache
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.GeneratedMSBuildEditorConfig.editorconfig
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.AssemblyInfoInputs.cache
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.AssemblyInfo.cs
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.csproj.CoreCompileInputs.cache
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.dll
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\ref\littleStar.dll
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.pdb
+F:\code\mujiangjuzi\littleStar\littleStar\obj\Debug\net6.0\littleStar.genruntimeconfig.cache
