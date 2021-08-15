@@ -1,0 +1,4 @@
+﻿  Source.cpp
+F:\code\mujiangjuzi\Wave\Wave\Source.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\code\mujiangjuzi\Wave\Wave\Source.cpp(172,18): error C2001: newline in constant
+F:\code\mujiangjuzi\Wave\Wave\Source.cpp(172,1): fatal error C1057: unexpected end of file in macro expansion
