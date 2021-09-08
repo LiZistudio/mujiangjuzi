@@ -1,0 +1,16 @@
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.csproj.AssemblyReference.cache
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.GeneratedMSBuildEditorConfig.editorconfig
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.AssemblyInfoInputs.cache
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.AssemblyInfo.cs
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.csproj.CoreCompileInputs.cache
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ConsoleApp007.exe
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ConsoleApp007.deps.json
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ConsoleApp007.runtimeconfig.json
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ConsoleApp007.runtimeconfig.dev.json
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ConsoleApp007.dll
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ref\ConsoleApp007.dll
+F:\My_Code\ConsoleApp007\ConsoleApp007\bin\Debug\net5.0\ConsoleApp007.pdb
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.dll
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ref\ConsoleApp007.dll
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.pdb
+F:\My_Code\ConsoleApp007\ConsoleApp007\obj\Debug\net5.0\ConsoleApp007.genruntimeconfig.cache

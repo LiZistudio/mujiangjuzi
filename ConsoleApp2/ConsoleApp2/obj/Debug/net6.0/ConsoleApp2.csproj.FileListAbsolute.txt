@@ -1,0 +1,16 @@
+F:\My_Code\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.exe
+F:\My_Code\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.deps.json
+F:\My_Code\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.runtimeconfig.json
+F:\My_Code\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.dll
+F:\My_Code\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ref\ConsoleApp2.dll
+F:\My_Code\ConsoleApp2\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.pdb
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.ImplicitNamespaceImports.cs
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.dll
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ref\ConsoleApp2.dll
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.pdb
+F:\My_Code\ConsoleApp2\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.genruntimeconfig.cache
